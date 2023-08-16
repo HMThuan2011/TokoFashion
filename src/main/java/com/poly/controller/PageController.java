@@ -39,7 +39,7 @@ public class PageController {
 
 	@RequestMapping("/")
 	public String homePage() {
-		return "trangChu";
+		return "index";
 	}
 
 
@@ -47,9 +47,9 @@ public class PageController {
 	public String homePag() {
 		return "adminn";
 	}
-	@RequestMapping("/trangChu")
+	@RequestMapping("/index")
 	public String trangChu() {
-		return "trangChu";
+		return "index";
 	}
 
 	@RequestMapping("/sanpham")
